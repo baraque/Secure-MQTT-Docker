@@ -32,7 +32,9 @@ CERTS:=\
 	$(MOUNTED_VOLUMES_TOP)/mqtt/config/certs/broker.key \
 	$(MOUNTED_VOLUMES_TOP)/mqtt/config/certs/broker.crt
 CLIENT_CERTS:=\
-	mqtt/certs/clients/example_user.crt
+	mqtt/certs/clients/example_user.crt \
+	mqtt/certs/clients/zcgd.crt \
+	mqtt/certs/clients/iot_controller.crt
 
 # ==================================================================
 # Targets:
