@@ -101,7 +101,7 @@ help:           ## Show this help
 # variables
 
 # Materials that go in the subject
-IP:=localhost
+IP:=172.29.4.2
 ORGANIZATION_NAME:=flaxnerf.io
 # NOTE: the Common Name (CN) for the CA must be different than that of the broker and the client
 SUBJECT_ROOT_CA:=/C=SE/ST=Stockholm/L=Stockholm/O=$(ORGANIZATION_NAME)/OU=CA/CN=$(ORGANIZATION_NAME)
